@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: "config-producer"
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  cloud:
+    config:
+      enabled: true
+      uri:
+      - "http://localhost:1667"
+      profile: dev
+      label: master
+      fail-fast: false
+      username: "chth"
+      password: "chth"
+      retry:
+        max-attempts: 10
+        max-interval: 2000
