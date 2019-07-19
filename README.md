@@ -7,7 +7,7 @@
 ## 第三步
 **修改根目录下_x里面的consumer和producer配置的属性。**
 ## 第四步
-** 用post方式访问ip：1667/actuator/bus-refresh,用来更新配置（会看到consumer和producer节点的容器部分启动）**
+**用post方式访问ip：1667/actuator/bus-refresh,用来更新配置（会看到consumer和producer节点的容器部分启动)**
 ## 第五步
-** 再次访问ip：consumer的端口号/consumer、ip：producer的端口号，来检查配置信息更新情况。**
+**再次访问ip：consumer的端口号/consumer、ip：producer的端口号，来检查配置信息更新情况。**
 
