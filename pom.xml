@@ -27,7 +27,7 @@
         <spring.version>5.1.5.RELEASE</spring.version>
         <spring.integration.version>5.1.3.RELEASE</spring.integration.version>
         <jackson.version>2.9.9</jackson.version>
-        <netty.version>4.1.33.Final</netty.version>
+        <netty.version>4.1.68.Final</netty.version>
     </properties>
 
     <dependencyManagement>
